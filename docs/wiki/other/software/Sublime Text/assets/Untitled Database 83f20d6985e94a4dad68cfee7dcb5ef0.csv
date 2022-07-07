@@ -1,0 +1,3 @@
+﻿class name,Description
+\xdd,A hexadecimal escape sequence - matches the single character whose code point is 0xdd.
+\x{dddd},A hexadecimal escape sequence - matches the single character whose code point is 0xdddd.

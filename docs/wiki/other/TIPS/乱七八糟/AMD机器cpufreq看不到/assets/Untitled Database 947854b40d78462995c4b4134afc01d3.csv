@@ -1,0 +1,6 @@
+﻿intel_pstate,This driver implements a scaling driver with an internal governor for Intel Core (Sandy Bridge and newer) processors.
+acpi-cpufreq,CPUFreq driver which utilizes the ACPI Processor Performance States. This driver also supports the Intel Enhanced SpeedStep (previously supported by the deprecated speedstep-centrino module).
+speedstep-lib,CPUFreq driver for Intel SpeedStep-enabled processors (mostly Atoms and older Pentiums (before III))
+powernow-k8,CPUFreq driver for K8/K10 Athlon 64/Opteron/Phenom processors. Since Linux 3.7 'acpi-cpufreq' will automatically be used for more modern CPUs from this family.
+pcc-cpufreq,This driver supports Processor Clocking Control interface by Hewlett-Packard and Microsoft Corporation which is useful on some ProLiant servers.
+p4-clockmod,CPUFreq driver for Intel Pentium 4/Xeon/Celeron processors which lowers the CPU temperature by skipping clocks. (You probably want to use a SpeedStep driver instead.)

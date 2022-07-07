@@ -1,0 +1,10 @@
+﻿class name,Description
+\d,Equal to [[:digit:]]
+\l,Equal to [[:lower:]]
+\u,Equal to [[:upper:]]
+\s,Equal to [[:space:]]
+\w,Equal to [[:word:]]
+\D,Equal to [^[:digit:]]
+\L,Equal to [^[:lower:]]
+\U,Equal to [^[:upper:]]
+\W,Equal to [^[:word:]]

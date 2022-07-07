@@ -1,0 +1,6 @@
+﻿expression,Description
+(?<NAME>pattern),Define a regex group named NAME which you can later refer to with \g{NAME}
+(?=pattern),"Positive lookahead, consumes zero characters, the preceding RE only matches if this matches"
+(?!pattern),"Negative lookahead, consumes zero characters, the preceding RE only matches if this does not match"
+(?<=pattern),"Positive lookbehind, consumes zero characters, the following RE will only match if preceded with this fixed length RE."
+(?<!pattern),"Negative lookbehind, consumes zero characters, the following RE will only match if not preceded with this fixed length RE."

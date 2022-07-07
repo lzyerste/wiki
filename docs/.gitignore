@@ -1,0 +1,6 @@
+*.swp
+.~*
+dummy
+#*NSConflict*
+unlinked_files_output.md
+unresolved_links_output.md

@@ -1,0 +1,12 @@
+﻿Name,Figure,File,Desc,备注
+ls1,1.3,ls1.c,"ls模拟。
+Listing the names of all the files in a directory.",列出的文件名是无序的。
+mycat,1.4,mycat.c,"Unbuffered IO，cat模拟。
+read from the standard input and write to the standard output",Ctrl+D退出。
+getcputc,1.5,getcputc.c,This program copies standard input to standard output and can copy any regular file.,每次读写一个字符
+hello,1.6,hello.c,prints its process ID,打印进程号
+shell1,1.7,shell1.c,reads commands from standard input and executes the commands,读入命令并在子进程号执行
+testerror,1.8,testerror.c,打印错误信息,"stderror, perror"
+uidgid,1.9,uidgid.c,prints the user ID and the group ID,
+shell2,1.10,shell2.c,shell1的改进版，catch signal,
+,,,,

@@ -1,0 +1,4 @@
+﻿Name,内核版本,资源链接
+centos 8.0.1905,4.18.0-80,http://vault.centos.org/8.0.1905/BaseOS/x86_64/os/Packages/
+centos 8.1,4.18.0-147,
+centos 8.2,,

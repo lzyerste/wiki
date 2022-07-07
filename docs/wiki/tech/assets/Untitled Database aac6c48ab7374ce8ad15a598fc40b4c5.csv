@@ -1,0 +1,7 @@
+﻿DTLB_LOAD_MISSES.MISS_CAUSES_A_WALK,Misses in all TLB levels that cause a page walk of any page size.,08H,01H
+DTLB_STORE_MISSES.MISS_CAUSES_A_WALK,Miss in all TLB levels causes a page walk of any page size.,49H,1
+DTLB_LOAD_MISSES.WALK_DURATION,This event counts cycles when the page miss handler (PMH) is servicing page walks caused by DTLB load misses.,08H,10
+ITLB_MISSES.MISS_CAUSES_A_WALK,Misses in ITLB that causes a page walk of any page size.,85H,1
+ITLB_MISSES.WALK_DURATION,This event counts cycles when the page miss handler (PMH) is servicing page walks caused by ITLB misses.,85H,10
+PAGE_WALKER_LOADS.DTLB_MEMORY,Number of DTLB page walker loads from memory.,BCH,18
+PAGE_WALKER_LOADS.ITLB_MEMORY,Number of ITLB page walker loads from memory.,BCH,28

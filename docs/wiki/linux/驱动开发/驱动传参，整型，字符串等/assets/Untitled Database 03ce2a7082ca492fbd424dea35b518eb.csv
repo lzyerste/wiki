@@ -1,0 +1,7 @@
+﻿Column 1
+"int myintarray[2];
+module_param_array(myintarray, int, NULL, 0); /* not interested in count */
+
+int myshortarray[4];
+int count;
+module_parm_array(myshortarray, short, , 0); /* put count into ""count"" variable */"

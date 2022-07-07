@@ -1,0 +1,12 @@
+﻿class name,Description
+alnum,Any alpha-numeric character
+alpha,Any alphabetic character.
+digit,Any decimal digit.
+xdigit,Any hexadecimal digit character.
+lower,Any lower case character.
+upper,Any upper case character.
+cntrl,Any control character1.
+print,Any printable character.
+punct,Any punctuation character. 2
+space,Any whitespace character. 3
+word,Any word character (alphanumeric characters plus the underscore).

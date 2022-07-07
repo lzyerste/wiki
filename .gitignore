@@ -1,0 +1,12 @@
+site
+docs/.obsidian
+docs/assets
+docs/config
+docs/daily
+docs/innogrit
+docs/personal
+docs/recite
+docs/template
+docs/timeline
+docs/*.py
+docs/*.sh
