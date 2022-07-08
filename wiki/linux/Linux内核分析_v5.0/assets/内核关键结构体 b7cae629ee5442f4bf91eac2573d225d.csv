@@ -1,0 +1,43 @@
+﻿Name,说明,url
+xa_node,xarray node,https://elixir.bootlin.com/linux/v5.0/source/include/linux/xarray.h#L946
+address_space,,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L424
+array_cache,slab每个CPU的局部cache,https://elixir.bootlin.com/linux/v5.0/source/mm/slab.c#L184
+atomic64_t,原子变量（64位）,https://elixir.bootlin.com/linux/v5.0/source/include/linux/types.h#L183
+atomic_t,原子变量（32位）,https://elixir.bootlin.com/linux/v5.0/source/include/linux/types.h#L178
+contig_page_data,UMA单一节点,https://elixir.bootlin.com/linux/v5.0/source/mm/memblock.c#L92
+dentry,dentry表示,https://elixir.bootlin.com/linux/v5.0/source/include/linux/dcache.h#L89
+file,通用文件描述符,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L901
+file_operations,通用文件操作接口,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L1783
+file_system_type,文件系统类型描述,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L2168
+filp_cachep,SLAB cache for file structures,https://elixir.bootlin.com/linux/v5.0/source/fs/file_table.c#L40
+init_mm,0号进程所使用的mm,https://elixir.bootlin.com/linux/v5.0/source/mm/init-mm.c#L28
+inode,inode表示,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L603
+inode_operations,inode操作,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L1824
+kmem_cache,slab cache表示,https://elixir.bootlin.com/linux/v5.0/source/include/linux/slab_def.h#L11
+kmem_cache_node,,https://elixir.bootlin.com/linux/v5.0/source/mm/slab.h#L454
+kobject,,https://elixir.bootlin.com/linux/v5.0/source/include/linux/kobject.h#L65
+list_head,双链表表示,https://elixir.bootlin.com/linux/v5.0/source/include/linux/types.h#L186
+MAX_NR_ZONES,ZONE类型数,https://elixir.bootlin.com/linux/latest/source/include/linux/mmzone.h#L345
+mem_map,所有页描述符的基地址,https://elixir.bootlin.com/linux/v5.0/source/mm/memory.c#L92
+mm_struct,进程内存描述符,https://elixir.bootlin.com/linux/v5.0/source/include/linux/mm_types.h#L345
+mount,,https://elixir.bootlin.com/linux/v5.0/source/fs/mount.h#L34
+node_data,跟踪所有NUMA节点,https://elixir.bootlin.com/linux/v5.0/source/arch/x86/mm/numa.c#L24
+page,页描述符,https://elixir.bootlin.com/linux/v5.0/source/include/linux/mm_types.h#L70
+pg_data_t,NUMA节点表示,https://elixir.bootlin.com/linux/v5.0/source/include/linux/mmzone.h#L718
+radix_tree_node,radix tree节点,https://elixir.bootlin.com/linux/v5.0/source/include/linux/radix-tree.h#L35
+radix_tree_root,radix tree,https://elixir.bootlin.com/linux/v5.0/source/include/linux/radix-tree.h#L34
+rb_node,红黑树节点,
+rb_root,红黑树根节点,
+resource,IO resource表示，树形结构,https://elixir.bootlin.com/linux/v5.0/source/include/linux/ioport.h#L19
+rq,进程调度队列,https://elixir.bootlin.com/linux/v5.0/source/kernel/sched/sched.h#L807
+sched_class,调度类,https://elixir.bootlin.com/linux/v5.0/source/kernel/sched/sched.h#L1630
+sched_domain,,
+sched_entity,调度实体,https://elixir.bootlin.com/linux/v5.0/source/include/linux/sched.h#L447
+super_block,superblock对象,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L1384
+super_operations,superblock操作函数,https://elixir.bootlin.com/linux/v5.0/source/include/linux/fs.h#L1900
+task_struct,进程描述,https://elixir.bootlin.com/linux/v5.0/source/include/linux/sched.h#L592
+thread_info,,https://elixir.bootlin.com/linux/v5.0/source/arch/x86/include/asm/thread_info.h#L56
+vfsmount,,https://elixir.bootlin.com/linux/v5.0/source/include/linux/mount.h#L67
+vm_area_struct,vma描述符,
+xarray,eXtensible Arrays,https://elixir.bootlin.com/linux/v5.0/source/include/linux/xarray.h#L244
+zone,zone数据结构,https://elixir.bootlin.com/linux/v5.0/source/include/linux/mmzone.h#L362

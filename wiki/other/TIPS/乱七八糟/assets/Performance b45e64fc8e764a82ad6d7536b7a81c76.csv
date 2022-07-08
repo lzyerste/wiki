@@ -1,0 +1,9 @@
+﻿Name,Tags
+Sequential Read (up to),2500 MB/s
+Sequential Write (up to),2200 MB/s
+Random Read (100% Span),550000 IOPS
+Random Write (100% Span),550000 IOPS
+Latency - Read,10 µs
+Latency - Write,10 µs
+Power - Active,18
+Power - Idle,7

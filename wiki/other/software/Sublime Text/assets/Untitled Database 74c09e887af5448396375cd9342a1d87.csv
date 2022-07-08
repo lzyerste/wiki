@@ -1,0 +1,10 @@
+﻿expression,Description
+[abc],"Match either a, b or c"
+[^abc],"Match any character not in this set (i.e., not a, b and c)"
+[a-z],Match the range from a to z
+[a-f2-8],Match the range from a to z or the range from 2 to 8
+[a\-z],"Match a, - or z"
+[a-],"Match a, -"
+[-a],"Match -, a"
+[-a],"Match -, a"
+[{}*|()[]+\^$.?],Match either one of the chacters in []{}*|()+^$?.

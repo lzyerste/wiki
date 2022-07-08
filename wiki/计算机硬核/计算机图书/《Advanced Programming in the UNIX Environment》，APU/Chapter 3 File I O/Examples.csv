@@ -1,0 +1,5 @@
+﻿Name,Figure,File,Desc,备注
+seek,3.1,seek.c,tests its standard input to see whether it is capable of seeking,
+hole,3.2,hole.c,creates a file with a hole in it,Mac环境下hole实际是真实填充的
+mycat,3.5,mycat.c,copies a file,文本文件及二进制文件均可
+fileflags,3.11,fileflags.c,Print file flags for specified descriptor,

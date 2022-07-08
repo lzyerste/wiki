@@ -1,0 +1,9 @@
+﻿快捷键,说明
+cmd/ctrl + p,to open search or jump to a recently viewed page.
+cmd/ctrl + enter,to modify the current block you're in
+cmd/ctrl + d,to duplicate the blocks you've selected
+cmd/ctrl + shift + h,to apply the last text or highlight color you used
+"cmd/ctrl + [ ",to go back a page.
+cmd/ctrl + ],to go forward a page
+cmd/ctrl + shift + u,to go up one level in the page hierarchy
+"cmd/ctrl + shift + arrow keys ",to move a selected block around

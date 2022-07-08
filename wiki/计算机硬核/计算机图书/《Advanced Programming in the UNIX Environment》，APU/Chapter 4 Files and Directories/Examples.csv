@@ -1,0 +1,11 @@
+﻿Name,Figure,File,Desc,备注
+filetype,4.3,filetype.c,Print type of file for each command-line argument,
+access,4.8,access.c,use of the access function,
+umask,4.9,umask.c,use of the umask function,如果umask里置位了，对应的权限是被关闭的
+changemod,4.12,changemod,use of the chmod function,
+unlink,4.16,unlink,opens a file and then unlinks it,虽然程序执行中unlink了，但文件此时并没有被删除，程序结束时，kernel才会去清理
+zap,4.21,zap.c,,
+,4.22,,,
+,4.23,,,
+,4.24,,,
+,,,,

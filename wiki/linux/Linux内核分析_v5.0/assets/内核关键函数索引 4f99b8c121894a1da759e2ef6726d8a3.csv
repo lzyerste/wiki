@@ -1,0 +1,12 @@
+﻿Name,说明,url
+"__free_pages(page, order)",,
+__get_free_pages,申请页，返回的是空间起始地址,
+alloc_pages,申请页，返回的是首个page描述符,
+"free_pages(addr, order)",,
+kmalloc,kmalloc内存分配函数,https://elixir.bootlin.com/linux/v5.0/source/include/linux/slab.h#L531
+page_address,根据page描述符转为线性地址，考虑高端内存,https://elixir.bootlin.com/linux/v5.0/source/mm/highmem.c#L408
+page_to_nid,通过page描述符找到所属的NUMA节点,https://elixir.bootlin.com/linux/v5.0/source/include/linux/mm.h#L1016
+page_zone,通过page描述符找到所属的zone,https://elixir.bootlin.com/linux/v5.0/source/include/linux/mm.h#L1160
+sched_fork,,https://elixir.bootlin.com/linux/v5.0/source/kernel/sched/core.c#L2311
+schedule,调度,https://elixir.bootlin.com/linux/v5.0/source/kernel/sched/core.c#L3522
+scheduler_tick,,https://elixir.bootlin.com/linux/v5.0/source/kernel/sched/core.c#L3049

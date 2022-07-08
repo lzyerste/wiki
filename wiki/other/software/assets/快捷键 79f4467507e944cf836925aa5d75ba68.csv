@@ -1,0 +1,9 @@
+﻿Name,Tags,Files
+command + d,垂直左右分屏,
+command + shift + d,水平上下分屏,
+command + 数字,tab切换,
+command + ],下一个分屏,
+command + [,上一个分屏,
+command + t,新开tab,
+command + w,关闭当前terminal,
+,,

@@ -1,0 +1,14 @@
+﻿expression,Description
+.,Match any character
+^,Match line begin
+$,Match line end
+*,Match previous RE 0 or more times greedily
+*?,Match previous RE 0 or more times non-greedily
++,Match previous RE 1 or more times greedily
++?,Match previous RE 1 or more times non-greedily
+?,Match previous RE 0 or 1 time greedily
+??,Match previous RE 0 or 1 time non-greedily
+A|B,Match either RE A or B
+{m},Match previous RE exactly m times
+"{m,n}",Match previous RE m to n times greedily
+"{m, n}?","Match previous RE m to n times, no-greedily"

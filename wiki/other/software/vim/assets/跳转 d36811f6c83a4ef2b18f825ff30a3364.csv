@@ -1,0 +1,15 @@
+﻿Name,Tags
+G,文件末尾
+gg,文件开头
+<num>G,跳到特定行
+Ctrl + o,Go back
+Ctrl + i,Go forward
+%,括号配对跳转
+Ctrl + ],跳到函数定义
+Ctrl + t,跳回来
+:ts function,搜索跳到某函数
+]m,移到当前文件下一个大括号{
+[m,移到当前文件上一个大括号{
+gD,local definition
+g],"list tags, 类似命令:ts"
+,

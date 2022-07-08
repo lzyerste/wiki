@@ -1,0 +1,6 @@
+﻿expression,Description
+\1,Refer to first regex group
+\g{1},Refer to first regex group
+\g{12},Refer to 12th regex group
+\g{-1},Refer to last regex group
+\g{-2},Refer to last but one regex group

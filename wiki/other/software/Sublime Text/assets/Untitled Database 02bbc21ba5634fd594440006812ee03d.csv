@@ -1,0 +1,5 @@
+﻿class name,Description
+\<,Matches the start of a word.
+\>,Matches the end of a word.
+\b,Matches a word boundary (the start or end of a word).
+\B,Matches only when not at a word boundary.

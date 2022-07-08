@@ -1,0 +1,17 @@
+﻿Name,章节,Source,Desc,备注
+helloworld,1.1,gopl.io/ch1/helloworld,Helloworld is our first Go program.,fmt.Println
+echo1,1.2,gopl.io/ch1/echo1,Echo1 prints its command-line arguments.,"for loop, os.Args"
+echo2,1.2,gopl.io/ch1/echo2,Echo2 prints its command-line arguments.,range
+echo3,1.2,gopl.io/ch1/echo3,Echo3 prints its command-line arguments.,strings.Join()
+dup1,1.3,gopl.io/ch1/dup1,"Dup1 prints the text of each line that appears more than once in the standard input, preceded by its count.","map, bufio"
+dup2,1.3,gopl.io/ch1/dup2,Dup2 prints the count and text of lines that appear more than once in the input.  It reads from stdin or from a list of named files.,"os.Open(), os.Fille"
+dup3,1.3,gopl.io/ch1/dup3,Dup3 prints the count and text of lines that appear more than once in the named input files.,"io/ioutil, ioutil.ReadFile()
+strings.Split()"
+lissajous,1.4,gopl.io/ch1/lissajous,Lissajous generates GIF animations of random Lissajous figures.,"const
+有web版本，带上参数web"
+fetch,1.5,gopl.io/ch1/fetch,Fetch prints the content found at each specified URL.,net/http
+fetchall,1.6,gopl.io/ch1/fetchall,Fetchall fetches URLs in parallel and reports their times and sizes.,"channel, goroutine"
+server1,1.7,gopl.io/ch1/server1,"Server1 is a minimal ""echo"" server.",net/http
+server2,1.7,gopl.io/ch1/server2,"Server2 is a minimal ""echo"" and counter server.",sync.Mutex
+server3,1.7,gopl.io/ch1/server3,"Server3 is an ""echo"" server that displays request parameters.",
+,,,,
