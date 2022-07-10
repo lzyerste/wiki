@@ -566,6 +566,10 @@
 </li>
             
 <li>
+    <a href="../mkdocs/" class="dropdown-item">mkdocs</a>
+</li>
+            
+<li>
     <a href="../movie/" class="dropdown-item">movie</a>
 </li>
             
@@ -9208,12 +9212,16 @@
 </code></pre>
 <h2 id="breakpoints">breakpoints</h2>
 <p>通过命令<code>break</code>设置断点。可以简写为<code>b</code>。</p>
-<p>方式一：文件名+行号。</p>
+<p>==方式一：文件名+行号。==</p>
 <pre><code class="language-sh">(gdb) break file1.c:6
 </code></pre>
-<p>方式二：函数名。</p>
+<p>==方式二：函数名。==</p>
 <pre><code class="language-sh">(gdb) break my_func
 </code></pre>
+<p>==方式三：内存地址==</p>
+<pre><code class="language-sh">(gdb) b *0x400448
+</code></pre>
+<hr />
 <p>查看所有断点设置信息：</p>
 <pre><code class="language-sh">(gdb) info b
 Num     Type           Disp Enb Address            What

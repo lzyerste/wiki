@@ -566,6 +566,10 @@
 </li>
             
 <li>
+    <a href="../mkdocs/" class="dropdown-item">mkdocs</a>
+</li>
+            
+<li>
     <a href="../movie/" class="dropdown-item">movie</a>
 </li>
             
@@ -9218,6 +9222,35 @@ rsync -auv --include='log*' --exclude='*' ~/package/ lzy@lzy:~/log
 </code></pre>
 <pre><code class="language-sh"># 同步目录
 rsync -auv --delete lzy@lzy:~/lzyerste .
+</code></pre>
+<hr />
+<p>可以使用配置文件，来排除不需要同步的文件或目录。</p>
+<pre><code class="language-c">$ cat exclude-file.txt 
+*.pdf
+*.py
+*.sh
+*NSConflict*
+.git
+.obsidian/
+config/
+daily/
+innogrit/
+personal/
+recite/
+template/
+timeline/
+unlinked_files_output.md
+unresolved_links_output.md
+custom.css
+favicon.ico
+wiki/mooc/
+wiki/algorithm/
+wiki/storage/ceph
+</code></pre>
+<pre><code class="language-sh">$ cat auto-sync.sh    
+#!/bin/bash
+
+rsync -auv --delete --exclude-from='exclude-file.txt' /mnt/d/Nutstore/wiki/ docs/
 </code></pre>
 <h1 id="rsync">rsync 用法教程</h1>
 <p>作者： <a href="https://www.ruanyifeng.com/">阮一峰</a></p>
